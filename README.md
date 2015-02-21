@@ -1,4 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
+
+Code book is included in readme file.
+
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
 - 'features.txt': List of all features.
