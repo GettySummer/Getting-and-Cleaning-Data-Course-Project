@@ -1,27 +1,14 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-Code book is included in readme file.
+##The script run_analysis.R performs these 5 steps:
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
+1. Merges the training and the test sets to create one data set.
 
-- 'features.txt': List of all features.
+2. Extracts only the measurements on the mean and standard devation for each measurement.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+3. Uses descriptive activity names to name the activities in the data set.
 
-- 'train/X_train.txt': Training set.
+4. Appropriately labels the data set with descriptive variable names.
 
-- 'train/y_train.txt': Training labels.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-- 'test/X_test.txt': Test set.
-
-- 'test/y_test.txt': Test labels.
-
-The following files are available for the train and test data. Their descriptions are equivalent. 
-
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
-
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
-
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
